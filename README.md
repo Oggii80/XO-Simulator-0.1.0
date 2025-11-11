@@ -1,4 +1,11 @@
 # XO Simulator
 
-Version 0.01 - Essentially a "one-button test" to make sure I know wtf I'm actually doing.  At this point, I'm essentially playing with the data types, how to parse arrays, etc.  I've noticed that C# wants you to put an 'F' after each floating decimal number, even though one might think that to be a bit intuitive, but it seems like even if you declare a variable to be a float, it'll consider a value as a double if you don't and you'll get a nasty-gram from Visual Studio and get your feelings hurt.
+Version 0.1.0 - This version incorporates a TON of changes from the previous, and takes it from simply clicking on things to now having an entire order-form to work with to handle all changes at once.  I've also added progress bars to demonstrate various supply levels and organized different elements into groups for easier handling and to create a clean UI.  Some minor changes include changing the text to something a little more "old-timey" for aesthetic purposes.
 
+For UI elements, it includes
+Labels that update depending on user input,
+NumericUpDown controls to adjust the quantities of each category ordered,
+Clickable buttons - though not as many in the previous version, each button now handles a larger number of tasks for       streamlined use
+Progress Bars that update to give a visual representation of how much stock the player has.
+
+I've kept the random even deck relatively unchanged, after all, if it's not broke, don't fix it!
